@@ -16,6 +16,8 @@
 PRODUCT_COPY_FILES += \
 #	/vendor/samsung/j7ltespr/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
 #	/vendor/samsung/j7ltespr/proprietary/etc/T13QL_s5k3l2xx_module_info.xml:system/etc/T13QL_s5k3l2xx_module_info.xml \
+	/vendor/samsung/j7ltespr/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
+	/vendor/samsung/j7ltespr/proprietary/app/mcRegistry/07050500000000000000000000000000.tlbin:system/app/mcRegistry/07050500000000000000000000000000.tlbin \
 	/vendor/samsung/j7ltespr/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
 	/vendor/samsung/j7ltespr/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
 	/vendor/samsung/j7ltespr/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \

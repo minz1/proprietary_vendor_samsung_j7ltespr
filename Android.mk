@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),j7ltespr)
+ifeq ($(TARGET_DEVICE),j7ltespr,SM-J700P,J700P)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
