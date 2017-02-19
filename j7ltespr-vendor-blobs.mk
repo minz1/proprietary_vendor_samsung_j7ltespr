@@ -165,6 +165,7 @@ PRODUCT_COPY_FILES += \
 	/vendor/samsung/j7ltespr/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libril.so:system/lib/libril.so \
+	/vendor/samsung/j7ltespr/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
