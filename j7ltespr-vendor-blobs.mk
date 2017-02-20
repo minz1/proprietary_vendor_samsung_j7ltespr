@@ -30,6 +30,8 @@ PRODUCT_COPY_FILES += \
 	/vendor/samsung/j7ltespr/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
 	/vendor/samsung/j7ltespr/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
 	/vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+	/vendor/samsung/j7ltespr/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
+	/vendor/samsung/j7ltespr/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
 	/vendor/samsung/j7ltespr/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
 	/vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
 	/vendor/samsung/j7ltespr/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
@@ -143,6 +145,8 @@ PRODUCT_COPY_FILES += \
 	/vendor/samsung/j7ltespr/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
 	/vendor/samsung/j7ltespr/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
 	/vendor/samsung/j7ltespr/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+	/vendor/samsung/j7ltespr/proprietary/vendor/bin/cs:system/vendor/bin/cs \
+	/vendor/samsung/j7ltespr/proprietary/vendor/bin/mcDriverDaemon:system/vendor/bin/mcDriverDaemon \
 	/vendor/samsung/j7ltespr/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
 	/vendor/samsung/j7ltespr/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libmmcamera_cac2_lib_13M.so:system/lib/libmmcamera_cac2_lib_13M.so \
