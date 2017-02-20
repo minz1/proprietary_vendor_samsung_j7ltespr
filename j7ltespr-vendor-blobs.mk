@@ -14,8 +14,6 @@
 #
  
 PRODUCT_COPY_FILES += \
-#	/vendor/samsung/j7ltespr/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
-#	/vendor/samsung/j7ltespr/proprietary/etc/T13QL_s5k3l2xx_module_info.xml:system/etc/T13QL_s5k3l2xx_module_info.xml \
 	/vendor/samsung/j7ltespr/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
 	/vendor/samsung/j7ltespr/proprietary/app/mcRegistry/07050500000000000000000000000000.tlbin:system/app/mcRegistry/07050500000000000000000000000000.tlbin \
 	/vendor/samsung/j7ltespr/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
@@ -150,7 +148,6 @@ PRODUCT_COPY_FILES += \
 	/vendor/samsung/j7ltespr/proprietary/lib/libmmcamera_cac2_lib_13M.so:system/lib/libmmcamera_cac2_lib_13M.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/lib_SamsungRec_V04013.so:system/lib/lib_SamsungRec_V04013.so \
-#	/vendor/samsung/j7ltespr/proprietary/lib/libcommon_time_client.so:system/lib/libcommon_time_client.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
@@ -162,19 +159,12 @@ PRODUCT_COPY_FILES += \
 	/vendor/samsung/j7ltespr/proprietary/lib/lib_SoundAlive_play_plus_ver126a.so:system/lib/lib_SoundAlive_play_plus_ver126a.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libmysound.so:system/lib/libmysound.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
-	/vendor/samsung/j7ltespr/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
-	/vendor/samsung/j7ltespr/proprietary/lib/libril.so:system/lib/libril.so \
-	/vendor/samsung/j7ltespr/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-	/vendor/samsung/j7ltespr/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-	/vendor/samsung/j7ltespr/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-	/vendor/samsung/j7ltespr/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
-	/vendor/samsung/j7ltespr/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libjpega.so:system/lib/libjpega.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/lib_SamsungVAD_v01009.so:system/lib/lib_SamsungVAD_v01009.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
@@ -195,7 +185,6 @@ PRODUCT_COPY_FILES += \
 	/vendor/samsung/j7ltespr/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-	/vendor/samsung/j7ltespr/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libizat_core.so:system/lib/libizat_core.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
@@ -207,12 +196,10 @@ PRODUCT_COPY_FILES += \
 	/vendor/samsung/j7ltespr/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
-#	/vendor/samsung/j7ltespr/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
 	/vendor/samsung/j7ltespr/proprietary/bin/radish:system/bin/radish \
 	/vendor/samsung/j7ltespr/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	/vendor/samsung/j7ltespr/proprietary/bin/irsc_util:system/bin/irsc_util \
 	/vendor/samsung/j7ltespr/proprietary/bin/ssr_setup:system/bin/ssr_setup \
-	/vendor/samsung/j7ltespr/proprietary/bin/rild:system/bin/rild \
 	/vendor/samsung/j7ltespr/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	/vendor/samsung/j7ltespr/proprietary/bin/netmgrd:system/bin/netmgrd \
 	/vendor/samsung/j7ltespr/proprietary/bin/loc_launcher:system/bin/loc_launcher \
