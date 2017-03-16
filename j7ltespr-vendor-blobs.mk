@@ -35,3 +35,6 @@ PRODUCT_COPY_FILES += \
 # apps
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/samsung/j7ltespr/proprietary/app,system/app)
+
+# tima measurement info
+PRODUCT_COPY_FILES += vendor/samsung/j7ltespr/proprietary/tima_measurement_info:system/tima_measurement_info \
