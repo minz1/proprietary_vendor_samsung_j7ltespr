@@ -83,6 +83,8 @@ PRODUCT_COPY_FILES += \
 	/vendor/samsung/j7ltespr/proprietary/lib/libvoOSCEngine.so:system/lib/libvoOSCEngine.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libtlc_tz_iccc.so:system/lib/libtlc_tz_iccc.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libsamsungvad.so:system/lib/libsamsungvad.so \
+	/vendor/samsung/j7ltespr/proprietary/lib/libsamsungSoundbooster_ext.so:system/lib/libsamsungSoundbooster_ext.so \
+	/vendor/samsung/j7ltespr/proprietary/lib/libsamsungSoundbooster_pgb.so:system/lib/libsamsungSoundbooster_pgb.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/lib_SamsungRec_V04013.so:system/lib/lib_SamsungRec_V04013.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
 	/vendor/samsung/j7ltespr/proprietary/lib/libtlc_comm.so:system/lib/libtlc_comm.so \
