@@ -114,7 +114,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/j7ltespr/proprietary/lib/libstrongswan.so:system/lib/libstrongswan.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-	vendor/samsung/j7ltespr/proprietary/lib/libmyspace.so:system/lib/libmyspace.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libvoAndroidVR_S23_OSMP.so:system/lib/libvoAndroidVR_S23_OSMP.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libmysound.so:system/lib/libmysound.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libchromatix_s5k3l2xx_golfshot.so:system/lib/libchromatix_s5k3l2xx_golfshot.so \
@@ -273,6 +272,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/j7ltespr/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
 	vendor/samsung/j7ltespr/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
 	vendor/samsung/j7ltespr/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
+	vendor/samsung/j7ltespr/proprietary/lib/soundfx/libmyspace.so:system/lib/soundfx/libmyspace.so \
 	vendor/samsung/j7ltespr/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
 	vendor/samsung/j7ltespr/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
 	vendor/samsung/j7ltespr/proprietary/vendor/speccfg/carrier_regional_pack_conf.xml:system/vendor/speccfg/carrier_regional_pack_conf.xml \
