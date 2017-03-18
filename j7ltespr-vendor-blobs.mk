@@ -138,6 +138,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/j7ltespr/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libvoMMCCRRS_v7_OSMP.so:system/lib/libvoMMCCRRS_v7_OSMP.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+	vendor/samsung/j7ltespr/proprietary/lib/audio_policy.default.so:system/lib/audio_policy.default.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libkeyutils.so:system/lib/libkeyutils.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libtlcotp.so:system/lib/libtlcotp.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
@@ -271,6 +272,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/j7ltespr/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
 	vendor/samsung/j7ltespr/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	vendor/samsung/j7ltespr/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+	vendor/samsung/j7ltespr/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
 	vendor/samsung/j7ltespr/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
 	vendor/samsung/j7ltespr/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
 	vendor/samsung/j7ltespr/proprietary/lib/soundfx/libmyspace.so:system/lib/soundfx/libmyspace.so \
