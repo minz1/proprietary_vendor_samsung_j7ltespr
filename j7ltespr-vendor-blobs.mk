@@ -462,9 +462,3 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/j7ltespr/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 	vendor/samsung/j7ltespr/proprietary/vendor/lib/mediadrm/libprmediadrmdecrypt.so:system/vendor/lib/mediadrm/libprmediadrmdecrypt.so \
 	vendor/samsung/j7ltespr/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
-	vendor/samsung/j7ltespr/proprietary/usr/keylayout/synaptics_dsx.kl:system/usr/keylayout/synaptics_dsx.kl \
-	vendor/samsung/j7ltespr/proprietary/usr/keylayout/ft5x06_ts.kl:system/usr/keylayout/ft5x06_ts.kl \
-	vendor/samsung/j7ltespr/proprietary/usr/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl \
-	vendor/samsung/j7ltespr/proprietary/usr/icu/icudt55l.dat:system/usr/icu/icudt55l.dat \
-	vendor/samsung/j7ltespr/proprietary/usr/idc/Synaptics_RMI4_TouchPad_Sensor.idc:system/usr/idc/Synaptics_RMI4_TouchPad_Sensor.idc \
-	vendor/samsung/j7ltespr/proprietary/usr/idc/Synaptics_HID_TouchPad.idc:system/usr/idc/Synaptics_HID_TouchPad.idc \
