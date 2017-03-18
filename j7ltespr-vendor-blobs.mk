@@ -137,6 +137,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/j7ltespr/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libvoMMCCRRS_v7_OSMP.so:system/lib/libvoMMCCRRS_v7_OSMP.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+	vendor/samsung/j7ltespr/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
 	vendor/samsung/j7ltespr/proprietary/lib/audio_policy.default.so:system/lib/audio_policy.default.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libkeyutils.so:system/lib/libkeyutils.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libtlcotp.so:system/lib/libtlcotp.so \
@@ -435,6 +436,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/j7ltespr/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
 	vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
 	vendor/samsung/j7ltespr/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+	vendor/samsung/j7ltespr/proprietary/vendor/lib/libnative_audio_latency_jni.so:system/vendor/lib/libnative_audio_latency_jni.so \
 	vendor/samsung/j7ltespr/proprietary/vendor/lib/libactuator_dw9806_camera.so:system/vendor/lib/libactuator_dw9806_camera.so \
 	vendor/samsung/j7ltespr/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
 	vendor/samsung/j7ltespr/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
