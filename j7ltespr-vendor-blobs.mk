@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/j7ltespr/proprietary/lib/libsec_devenc.so:system/lib/libsec_devenc.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libtlc_tz_keystore.so:system/lib/libtlc_tz_keystore.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libril.so:system/lib/libril.so \
-	vendor/samsung/j7ltespr/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libtlc_t2_ks_mi.so:system/lib/libtlc_t2_ks_mi.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libvoIOMXDec_jb_OSMP.so:system/lib/libvoIOMXDec_jb_OSMP.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libvoOSCEngine.so:system/lib/libvoOSCEngine.so \
