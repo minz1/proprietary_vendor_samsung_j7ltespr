@@ -112,6 +112,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/j7ltespr/proprietary/lib/libterrier.so:system/lib/libterrier.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libAIVMemoryAllocator.so:system/lib/libAIVMemoryAllocator.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libstrongswan.so:system/lib/libstrongswan.so \
+	vendor/samsung/j7ltespr/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+	vendor/samsung/j7ltespr/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+	vendor/samsung/j7ltespr/proprietary/lib/libmyspace.so:system/lib/libmyspace.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libvoAndroidVR_S23_OSMP.so:system/lib/libvoAndroidVR_S23_OSMP.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libmysound.so:system/lib/libmysound.so \
 	vendor/samsung/j7ltespr/proprietary/lib/libchromatix_s5k3l2xx_golfshot.so:system/lib/libchromatix_s5k3l2xx_golfshot.so \
