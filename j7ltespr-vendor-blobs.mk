@@ -273,6 +273,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/j7ltespr/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
     vendor/samsung/j7ltespr/proprietary/lib/soundfx/libmyspace.so:system/lib/soundfx/libmyspace.so \
+    vendor/samsung/j7ltespr/proprietary/lib64/libSecMMCodec.so:system/lib64/libSecMMCodec.so \
     vendor/samsung/j7ltespr/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/samsung/j7ltespr/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/samsung/j7ltespr/proprietary/vendor/bin/sampleauthdaemon:system/vendor/bin/sampleauthdaemon \
@@ -417,6 +418,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libSecMMCodec.so:system/lib/libSecMMCodec.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
