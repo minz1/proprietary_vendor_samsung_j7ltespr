@@ -35,12 +35,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/j7ltespr/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/samsung/j7ltespr/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/j7ltespr/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/samsung/j7ltespr/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/j7ltespr/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/samsung/j7ltespr/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/samsung/j7ltespr/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/samsung/j7ltespr/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/j7ltespr/proprietary/bin/usbhub:system/bin/usbhub \
+    vendor/samsung/j7ltespr/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/samsung/j7ltespr/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/j7ltespr/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/j7ltespr/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
@@ -70,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/samsung/j7ltespr/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/samsung/j7ltespr/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/samsung/j7ltespr/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/samsung/j7ltespr/proprietary/lib/dts_fbo_textureextraction.so:system/lib/dts_fbo_textureextraction.so \
     vendor/samsung/j7ltespr/proprietary/lib/dts_libskia_interface.so:system/lib/dts_libskia_interface.so \
     vendor/samsung/j7ltespr/proprietary/lib/libabcfingr.so:system/lib/libabcfingr.so \
@@ -90,8 +93,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/samsung/j7ltespr/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
     vendor/samsung/j7ltespr/proprietary/lib/libarcsoft_wideselfie.so:system/lib/libarcsoft_wideselfie.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libatomcore.so:system/lib/libatomcore.so \
     vendor/samsung/j7ltespr/proprietary/lib/libatomjpeg.so:system/lib/libatomjpeg.so \
     vendor/samsung/j7ltespr/proprietary/lib/libatparser.so:system/lib/libatparser.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
     vendor/samsung/j7ltespr/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/j7ltespr/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/j7ltespr/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
@@ -101,7 +106,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
     vendor/samsung/j7ltespr/proprietary/lib/libbt-codec_sshd.so:system/lib/libbt-codec_sshd.so \
     vendor/samsung/j7ltespr/proprietary/lib/libbt-iopdb.so:system/lib/libbt-iopdb.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libbt-iopdb_mod.so:system/lib/libbt-iopdb_mod.so \
     vendor/samsung/j7ltespr/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libCryptionkey.so:system/lib/libCryptionkey.so \
     vendor/samsung/j7ltespr/proprietary/lib/libcharon.so:system/lib/libcharon.so \
     vendor/samsung/j7ltespr/proprietary/lib/libchromatix_s5k3l2xx_common_1080p_b.so:system/lib/libchromatix_s5k3l2xx_common_1080p_b.so \
     vendor/samsung/j7ltespr/proprietary/lib/libchromatix_s5k3l2xx_common_1080p_s.so:system/lib/libchromatix_s5k3l2xx_common_1080p_s.so \
@@ -123,13 +130,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libchromatix_s5k3l2xx_uhd_video.so:system/lib/libchromatix_s5k3l2xx_uhd_video.so \
     vendor/samsung/j7ltespr/proprietary/lib/libchromatix_s5k3l2xx_zslshot.so:system/lib/libchromatix_s5k3l2xx_zslshot.so \
     vendor/samsung/j7ltespr/proprietary/lib/libcordon.so:system/lib/libcordon.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libcommonpawrapper.so:system/lib/libcommonpawrapper.so \
     vendor/samsung/j7ltespr/proprietary/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
     vendor/samsung/j7ltespr/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
+    vendor/samsung/j7ltespr/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
+    vendor/samsung/j7ltespr/proprietary/lib/lib_PreGainBooster_ver105.so:system/lib/lib_PreGainBooster_ver105.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libdirencryption.so:system/lib/libdirencryption.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libdmcFaceEngine.so:system/lib/libdmcFaceEngine.so \
     vendor/samsung/j7ltespr/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libexifa.so:system/lib/libexifa.so \
     vendor/samsung/j7ltespr/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/samsung/j7ltespr/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/j7ltespr/proprietary/lib/libfilterfw.so:system/lib/libfilterfw.so \
     vendor/samsung/j7ltespr/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libfilterpack_imageproc.so:system/lib/libfilterpack_imageproc.so \
     vendor/samsung/j7ltespr/proprietary/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
     vendor/samsung/j7ltespr/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/j7ltespr/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
@@ -139,6 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/j7ltespr/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/j7ltespr/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libmaet.so:system/lib/libmaet.so \
     vendor/samsung/j7ltespr/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/j7ltespr/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/samsung/j7ltespr/proprietary/lib/libMLDAP.so:system/lib/libMLDAP.so \
@@ -147,19 +162,29 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/samsung/j7ltespr/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/samsung/j7ltespr/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/samsung/j7ltespr/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/j7ltespr/proprietary/lib/libnvaccessor_fb.so:system/lib/libnvaccessor_fb.so \
     vendor/samsung/j7ltespr/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/j7ltespr/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libpalmMobileDetectorFull.so:system/lib/libpalmMobileDetectorFull.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libphotoeditorEngine.so:system/lib/libphotoeditorEngine.so \
     vendor/samsung/j7ltespr/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libQjpeg.so:system/lib/libQjpeg.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libqjpegforphotoeditor.so:system/lib/libqjpegforphotoeditor.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/j7ltespr/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/j7ltespr/proprietary/lib/libquramimagecodec.so:system/lib/libquramimagecodec.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libquramagifencoder_L.so:system/lib/libquramagifencoder_L.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libquramresize.so:system/lib/libquramresize.so \
     vendor/samsung/j7ltespr/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/j7ltespr/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/samsung/j7ltespr/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
+    vendor/samsung/j7ltespr/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsAMRNB.so:system/lib/libsAMRNB.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsAMRWB.so:system/lib/libsAMRWB.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsamsungearcare.so:system/lib/libsamsungearcare.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsamsungeffect.so:system/lib/libsamsungeffect.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libSamsungPkcs11Wrapper.so:system/lib/libSamsungPkcs11Wrapper.so \
     vendor/samsung/j7ltespr/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
     vendor/samsung/j7ltespr/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
@@ -179,14 +204,32 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsccore.so:system/lib/libsccore.so \
     vendor/samsung/j7ltespr/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libseccamera_jni.so:system/lib/libseccamera_jni.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsec_ecryptfs.so:system/lib/libsec_ecryptfs.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsec_devenc.so:system/lib/libsec_devenc.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsecface.so:system/lib/libsecface.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsecfips.so:system/lib/libsecfips.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsecimaging.so:system/lib/libsecimaging.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsecjpegquram.so:system/lib/libsecjpegquram.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsecmediarecorder_jni.so:system/lib/libsecmediarecorder_jni.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libSecMMCodec.so:system/lib/libSecMMCodec.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsecpkcs11_engine.so:system/lib/libsecpkcs11_engine.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7ltespr/proprietary/lib/libSEF4MP4.so:system/lib/libSEF4MP4.so \
     vendor/samsung/j7ltespr/proprietary/lib/libSEF.so:system/lib/libSEF.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsfextaac.so:system/lib/libsfextaac.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsfextcmn.so:system/lib/libsfextcmn.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsfextcp.so:system/lib/libsfextcp.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsfextflac.so:system/lib/libsfextflac.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsfextmkv.so:system/lib/libsfextmkv.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsfextmp4f.so:system/lib/libsfextmp4f.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libshdace.so:system/lib/libshdace.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsnaace.so:system/lib/libsnaace.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsnamrnb.so:system/lib/libsnamrnb.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libsnamrwb.so:system/lib/libsnamrwb.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
@@ -266,6 +309,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libvoOSCEngine.so:system/lib/libvoOSCEngine.so \
     vendor/samsung/j7ltespr/proprietary/lib/libvoOSEng_OSMP.so:system/lib/libvoOSEng_OSMP.so \
     vendor/samsung/j7ltespr/proprietary/lib/libvoVidDec_OSMP.so:system/lib/libvoVidDec_OSMP.so \
+    vendor/samsung/j7ltespr/proprietary/lib64/libSecMMCodec.so:system/lib64/libSecMMCodec.so \
     vendor/samsung/j7ltespr/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/samsung/j7ltespr/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/samsung/j7ltespr/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
@@ -294,8 +338,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libactuator_dw9806_camera.so:system/vendor/lib/libactuator_dw9806_camera.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -327,20 +373,25 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/samsung/j7ltespr/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
@@ -374,17 +425,23 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libnative_audio_latency_jni.so:system/vendor/lib/libnative_audio_latency_jni.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
@@ -409,24 +466,34 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libsregex.so:system/vendor/lib/libsregex.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libSampleAuthJNI.so:system/vendor/lib/libSampleAuthJNI.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libSecMMCodec.so:system/lib/libSecMMCodec.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libSecureSampleAuthClient.so:system/vendor/lib/libSecureSampleAuthClient.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libSecureSampleAuthJNI.so:system/vendor/lib/libSecureSampleAuthJNI.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
@@ -435,6 +502,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
+    vendor/samsung/j7ltespr/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
