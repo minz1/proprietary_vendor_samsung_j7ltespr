@@ -98,6 +98,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
     vendor/samsung/j7ltespr/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
     vendor/samsung/j7ltespr/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libbt-codec_sshd.so:system/lib/libbt-codec_sshd.so \
     vendor/samsung/j7ltespr/proprietary/lib/libbt-iopdb.so:system/lib/libbt-iopdb.so \
     vendor/samsung/j7ltespr/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/j7ltespr/proprietary/lib/libcharon.so:system/lib/libcharon.so \
@@ -151,6 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/samsung/j7ltespr/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
     vendor/samsung/j7ltespr/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libquramimagecodec.so:system/lib/libquramimagecodec.so \
     vendor/samsung/j7ltespr/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/j7ltespr/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7ltespr/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
