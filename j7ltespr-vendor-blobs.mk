@@ -220,31 +220,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libsnamrnb.so:system/lib/libsnamrnb.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsnamrwb.so:system/lib/libsnamrwb.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsomp.so:system/lib/libsomp.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxadpcmd.so:system/lib/libsomxadpcmd.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxevrcd.so:system/lib/libsomxevrcd.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxevrce.so:system/lib/libsomxevrce.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxhevcdsw.so:system/lib/libsomxhevcdsw.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxnaace.so:system/lib/libsomxnaace.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxqcelpd.so:system/lib/libsomxqcelpd.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxqcelpe.so:system/lib/libsomxqcelpe.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxvc1dsw.so:system/lib/libsomxvc1dsw.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxvencsw.so:system/lib/libsomxvencsw.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
     vendor/samsung/j7ltespr/proprietary/lib/lib_SoundAlive_3DPosition_ver107.so:system/lib/lib_SoundAlive_3DPosition_ver107.so \
     vendor/samsung/j7ltespr/proprietary/lib/lib_SoundAlive_3DRendering_ver102.so:system/lib/lib_SoundAlive_3DRendering_ver102.so \
     vendor/samsung/j7ltespr/proprietary/lib/lib_SoundAlive_play_plus_ver126a.so:system/lib/lib_SoundAlive_play_plus_ver126a.so \
