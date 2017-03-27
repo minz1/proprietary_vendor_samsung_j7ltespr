@@ -174,6 +174,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libsAMRWB.so:system/lib/libsAMRWB.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsamsungearcare.so:system/lib/libsamsungearcare.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsamsungeffect.so:system/lib/libsamsungeffect.so \
+    vendor/samsung/j7ltespr/proprietary/lib/libSamsungMusic_v4.so:system/lib/libSamsungMusic_v4.so \
     vendor/samsung/j7ltespr/proprietary/lib/libSamsungPkcs11Wrapper.so:system/lib/libSamsungPkcs11Wrapper.so \
     vendor/samsung/j7ltespr/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
